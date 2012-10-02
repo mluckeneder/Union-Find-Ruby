@@ -1,2 +1,1 @@
-Union-Find-Ruby
-===============
+Implementation of various Union Find algorithms in Ruby
