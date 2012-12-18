@@ -2,8 +2,7 @@
 
 class QuickFind
   def initialize(n)
-    @ids = []
-    0.upto(n-1) {|i| @ids[i] = i}
+    @ids = (0..n-1).to_a
   end
   
   def connected?(id1,id2)
